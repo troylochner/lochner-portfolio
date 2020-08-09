@@ -6,13 +6,18 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!--USING A CUSTOM BOOTSTRAP THEME-->
-    <link rel="stylesheet" href="style/bs_grayscale.css">
+  <!--USING A CUSTOM BOOTSTRAP THEME-->
+  <link rel="stylesheet" href="style/bs_grayscale.css">
 
-    <!--PERSONAL STYLE SHEET OVERIDE-->
-     <link rel="stylesheet" href="style/style.css">
-   
-     <!-- Bootstrap CSS 
+  <!--Bootstrap Icon Library-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+
+  <!--PERSONAL STYLE SHEET OVERIDE-->
+  <link rel="stylesheet" href="style/style.css">
+
+  <!-- Bootstrap CSS 
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> 
     -->
@@ -22,94 +27,128 @@
 
 <body>
 
-    <!--MY NAVIGATION CLASS  ADD RADIUS TO THIS SPECIFIC ELEMENT TO GIVE MYSELF A CIRCLE ICON-->
-    <nav class="navbar navbar-expand navbar-dark bg-dark">
+  <!--MY NAVIGATION CLASS  ADD RADIUS TO THIS SPECIFIC ELEMENT TO GIVE MYSELF A CIRCLE ICON-->
+  <nav class="navbar navbar-expand navbar-dark bg-dark">
 
-      <a class="navbar-brand" href="#">
-        <img src="Assets/Images/data_slayer_2_150x150.jpg" width="30" height="30" class="d-inline-block align-top" alt=""
-          loading="lazy">
-        Troy Lochner
-      </a>
-  
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              GoTo
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="index.html">Home</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="portfolio.html">Portfolio</a>
-              <a class="dropdown-item" href="contact.html">Contact Info</a>
-  
-  
-            </div>
-          </li>
-        </ul>
-  
-        <!--DO NOT NEED FORMS YET - BUT KEEP HANDY
+    <a class="navbar-brand" href="#">
+      <img src="Assets/Images/data_slayer_2_150x150.jpg" width="30" height="30" class="d-inline-block align-top" alt=""
+        loading="lazy">
+      Troy Lochner
+    </a>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            GoTo
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="index.html">Home</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="portfolio.html">Portfolio</a>
+            <a class="dropdown-item" href="contact.html">Contact Info</a>
+
+
+          </div>
+        </li>
+      </ul>
+
+      <!--DO NOT NEED FORMS YET - BUT KEEP HANDY
           <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
           </form>-->
-      </div>
-    </nav>
+    </div>
+  </nav>
 
 
   <!--make each item within these a card with both an image (350px x350px) + a brief description. Use ipsum for now. Build using some of my WWE FM Examples.-->
-<section class="container">
+  <section class="container">
+
+    <section class="row">
+      <section class="col-12">
+        <h1 class="text-center ">Work Porfolio</h1>
+
+      </section>
+    </section>
+
+    <section class="row">
+      <section class="col-12">
+        <main class="card-deck">
+          
+          <div class="card bg-info">
+            <img class="card-img-top" src="https://via.placeholder.com/150" alt="[PROJECT NAME]" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">[PROEJCT NAME 1]</h4>
+              <p class="card-text"></p>
+            </div>
+            <div class="card-body text-center">
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam turpis eros,
+                facilisis nec accumsan a, vehicula quis orci. Etiam quis dapibus odio. Vestibulum faucibus lectus velit,
+                eget euismod nunc dignissim ac. Vivamus et sollicitudin nibh, a vehicula eros. Integer euismod magna
+                tempor, feugiat metus at, maximus nulla. Pellentesque habitant morbi.
+              </p>
+            </div>
+          </div>
+
+          <div class="card bg-warning">
+            <img class="card-img-top" src="https://via.placeholder.com/150" alt="[PROJECT NAME]" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">[PROEJCT NAME 2]</h4>
+              <p class="card-text"></p>
+            </div>
+            <div class="card-body text-center">
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam turpis eros,
+                facilisis nec accumsan a, vehicula quis orci. Etiam quis dapibus odio. Vestibulum faucibus lectus velit,
+                eget euismod nunc dignissim ac. Vivamus et sollicitudin nibh, a vehicula eros. Integer euismod magna
+                tempor, feugiat metus at, maximus nulla. Pellentesque habitant morbi.
+              </p>
+            </div>
+          </div>
+        </main>
+      </section>
+    </section>
+
+    <section class="row">
+      <section class="col-12">
+        <main class="card-deck">
+          <div class="card bg-success">
+            <img class="card-img-top" src="https://via.placeholder.com/150" alt="[PROJECT NAME]" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">[PROEJCT NAME 3]</h4>
+              <p class="card-text"></p>
+            </div>
+            <div class="card-body text-center">
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam turpis eros,
+                facilisis nec accumsan a, vehicula quis orci. Etiam quis dapibus odio. Vestibulum faucibus lectus velit,
+                eget euismod nunc dignissim ac. Vivamus et sollicitudin nibh, a vehicula eros. Integer euismod magna
+                tempor, feugiat metus at, maximus nulla. Pellentesque habitant morbi.
+              </p>
+            </div>
+            </div>
+          </div>
+          <div class="card bg-danger">
+            <img class="card-img-top" src="https://via.placeholder.com/150" alt="[PROJECT NAME]" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">[PROEJCT NAME 4]</h4>
+              <p class="card-text"></p>
+            </div>
+            <div class="card-body text-center">
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam turpis eros,
+                facilisis nec accumsan a, vehicula quis orci. Etiam quis dapibus odio. Vestibulum faucibus lectus velit,
+                eget euismod nunc dignissim ac. Vivamus et sollicitudin nibh, a vehicula eros. Integer euismod magna
+                tempor, feugiat metus at, maximus nulla. Pellentesque habitant morbi.
+              </p>
+            </div>
+          </div>
+        </main>
+      </section>
+    </section>
+  </section>
 
 
-  <div class="card-deck">
-    <div class="card bg-primary">
-      <div class="card-body text-center">
-        <p class="card-text">Some text inside the first card</p>
-      </div>
-    </div>
-    <div class="card bg-warning">
-      <div class="card-body text-center">
-        <p class="card-text">Some text inside the second card</p>
-      </div>
-    </div>
-    <div class="card bg-success">
-      <div class="card-body text-center">
-        <p class="card-text">Some text inside the third card</p>
-      </div>
-    </div>
-    <div class="card bg-danger">
-      <div class="card-body text-center">
-        <p class="card-text">Some text inside the fourth card</p>
-      </div>
-    </div>
   </div>
-
-  <div class="card-deck">
-    <div class="card bg-primary">
-      <div class="card-body text-center">
-        <p class="card-text">Some text inside the first card</p>
-      </div>
-    </div>
-    <div class="card bg-warning">
-      <div class="card-body text-center">
-        <p class="card-text">Some text inside the second card</p>
-      </div>
-    </div>
-    <div class="card bg-success">
-      <div class="card-body text-center">
-        <p class="card-text">Some text inside the third card</p>
-      </div>
-    </div>
-    <div class="card bg-danger">
-      <div class="card-body text-center">
-        <p class="card-text">Some text inside the fourth card</p>
-      </div>
-    </div>
-  </div>
-
-</section>
-
 
 
 
@@ -119,7 +158,7 @@
 
   <!--END NAV AREA-->
 
-    <!--MAIN CLASS-->
+  <!--MAIN CLASS-->
 
 
 
