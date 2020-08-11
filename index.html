@@ -60,36 +60,7 @@
     </div>
   </nav>
   <!--END NAV AREA-->
-  
-  <!--THIS IS MY LITTLE ATTEMPT AT GETTING VIA AJAX-->
-<div id="id01"></div>
 
-<script>
-var xmlhttp = new XMLHttpRequest();
-var url = "https://jsonplaceholder.typicode.com/albums/1/photos";
-
-xmlhttp.onreadystatechange = function() {
-  if (this.readyState == 4 && this.status == 200) {
-    var myArr = JSON.parse(this.responseText);
-    myFunction(myArr);
-    console.log(myArr)
-  }
-};
-xmlhttp.open("GET", url, true);
-xmlhttp.send();
-
-function myFunction(myArr) {
-  var out = "";
-  var i;
-  for(i = 0; i < myArr.length; i++) {
-    out += '<img src="' + myArr[i].url + '"class="img-thumbnail" style="max-height: 60px">' + 
-    '</img><br>';
-  }
-  document.getElementById("id01").innerHTML = out;
-  //<img src="cinqueterre.jpg" class="img-thumbnail" alt="Cinque Terre">
-
-}
-</script>
 
   <main class="container-fluid">
     <section class="jumbotron">
