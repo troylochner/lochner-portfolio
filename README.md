@@ -68,25 +68,25 @@ Navbar must be consistent on each page. - COMPLETE (REVIEW)
 Navbar on each page must contain links to Home/About, Contact, and Portfolio pages. - COMPLETE
 
 
-All links must work. - 
+All links must work. - COMPLETE
 
 
-Must use semantic html.
+Must use semantic html. - I HAVE MOSTLY AHEREDED - I AM USING SOME DIVS FOR ELEMENTS
 
 
-Each page must have valid and correct HTML. (use a validation service)
+Each page must have valid and correct HTML. (use a validation service) - COMPLETE
 
 
-Must contain your personalized information. (bio, name, images, links to social media, etc.)
+Must contain your personalized information. (bio, name, images, links to social media, etc.) - COMPLETE
 
 
-Must properly utilize Bootstrap components and grid system.
+Must properly utilize Bootstrap components and grid system. - COMPLETE
 
 
 
 Bonus
 
-Using Bootstrap, make a sticky footer and use sub-rows and sub-columns on your portfolio site (Hint: Check out the Bootstrap documentation).
+Using Bootstrap, make a sticky footer and use sub-rows and sub-columns on your portfolio site (Hint: Check out the Bootstrap documentation). - ADD THIS TO SITE
 
 
 Commit Early and Often
