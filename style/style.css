@@ -14,3 +14,10 @@ height: 100%;
     border-radius: 20px;
 }
 
+/*ADDED FOOTER FORMATING TO KEEP STICK FOOTER HANGING ON THE BOTTOM OF THE PAGE*/
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
