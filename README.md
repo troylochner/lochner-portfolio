@@ -56,19 +56,19 @@ Use an HTML validation service to ensure that each page has valid HTML.
 Minimum Requirements
 
 
-Functional, deployed application
+Functional, deployed application - COMPLETE
 
 
-GitHub repository with README describing the project
+GitHub repository with README describing the project - COMPLETE
 
 
-Navbar must be consistent on each page.
+Navbar must be consistent on each page. - COMPLETE (REVIEW)
 
 
-Navbar on each page must contain links to Home/About, Contact, and Portfolio pages.
+Navbar on each page must contain links to Home/About, Contact, and Portfolio pages. - COMPLETE
 
 
-All links must work.
+All links must work. - 
 
 
 Must use semantic html.
