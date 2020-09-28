@@ -1,5 +1,18 @@
-
 .card-image{
     height: auto;
     width: fit-content;   
 }
+
+
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color:#37474f   ;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
