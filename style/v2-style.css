@@ -5,7 +5,10 @@
     width: 100%;
 }
 
-
+.card-content{
+    height: 150px;
+    overflow: hidden;
+}
 
 .card-image {
     height: auto;
