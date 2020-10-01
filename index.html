@@ -1,113 +1,138 @@
 <!doctype html>
 <html lang="en">
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+      shrink-to-fit=no">
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style/v2-style.css">
 
-    <!--USING A CUSTOM BOOTSTRAP THEME-->
-    <link rel="stylesheet" href="style/bs_grayscale.css">
+    <!--Material Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 
-    <!--PERSONAL STYLE SHEET OVERIDE-->
-     <link rel="stylesheet" href="style/style.css">
-   
-     <!-- Bootstrap CSS 
-     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> 
-    -->
+    <!-- Compiled and minified JavaScript -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <title>Troy Lochner : Professional + Student Portfolio</title>
+  </head>
 
-  <title>Troy Lochner : About this Man</title>
-  
-</head>
+  <body>
+    <nav>
+      <div class="nav-wrapper blue-grey darken-4 z-depth-5">
+        <a href="#" class="brand-logo">Troy Lochner</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li>Get in Touch : </li>
+          <li><a href="https://www.linkedin.com/in/troylochner/" target="_blank">LinkedIn</a></li>
+          <li><a href="https://github.com/troylochner" target="_blank">GitHub</a></li>
+        </ul>
+      </div>
+    </nav>
 
-<body>
+    <div class="container">
+      <!-- Page Content goes here -->
 
-  <!--MY NAVIGATION CLASS  ADD RADIUS TO THIS SPECIFIC ELEMENT TO GIVE MYSELF A CIRCLE ICON-->
-  <nav class="navbar navbar-expand navbar-dark bg-dark">
+      <div class="row">
 
-    <a class="navbar-brand" href="#">
-      <img src="Assets/Images/data_slayer_2_150x150.jpg" width="30" height="30" class="d-inline-block align-top" alt=""
-        loading="lazy">
-      Troy Lochner
-    </a>
+        <div class="col s12 m6 l4 xl3">
+          <div class="card z-depth-5">
+            <div class="card-image">
+              <img src="images/covid-info.png">
+              <span class="card-title">Covid-19 Dashboard</span>
+              <a href="https://troylochner.github.io/covid19-info/"
+                target="_blank" class="btn-floating halfway-fab waves-effect
+                waves-light red"><i class="material-icons">open_in_new</i></a>
+            </div>
+            <div class="card-content">
+              <p>A responsive webpage that gives the end-user current information (up to 6 weeks) on the Covid-19 Pandemic.</p>
+            </div>
+          </div>
+        </div>
 
-    <section class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            GoTo
-          </a>
-          <section class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="index.html">Home</a>
-            <section class="dropdown-divider"></section>
-            <a class="dropdown-item" href="portfolio.html">Portfolio</a>
-            <a class="dropdown-item" href="contact.html">Contact Info</a>
+        <div class="col s12 m6 l4 xl3">
+          <div class="card z-depth-5">
+            <div class="card-image">
+              <img src="images/weather-dashboard.png">
+              <span class="card-title">Weather Dashboard</span>
+              <a href="https://troylochner.github.io/Weather-Dashboard/"
+                target="_blank" class="btn-floating halfway-fab waves-effect
+                waves-light red"><i class="material-icons">open_in_new</i></a>
+            </div>
+            <div class="card-content">
+              <p>Simple dashboard built using JQuery + Bootstrap to utilize the Open Weather API. Enter a city name to get the forecast.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m6 l4 xl3">
+          <div class="card z-depth-5">
+            <div class="card-image">
+              <img src="images/password-generator.png">
+              <span class="card-title">Password Generator</span>
+              <a href="https://troylochner.github.io/Simple-PW-Generator/"
+                target="_blank" class="btn-floating halfway-fab waves-effect
+                waves-light red"><i class="material-icons">open_in_new</i></a>
+            </div>
+            <div class="card-content">
+              <p>A simple stand-alone tool to generate secure passwords. </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m6 l4 xl3">
+          <div class="card z-depth-5">
+            <div class="card-image">
+              <img src="images/work-day.png">
+              <span class="card-title">Day Planner</span>
+              <a href="https://troylochner.github.io/WorkDay-Planner/"
+                target="_blank" class="btn-floating halfway-fab waves-effect
+                waves-light red"><i class="material-icons">open_in_new</i></a>
+            </div>
+            <div class="card-content">
+              <p>A single day task planner.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m6 l4 xl3">
+          <div class="card z-depth-5">
+            <div class="card-image">
+              <img src="images/simple-quiz.png">
+              <span class="card-title">Simple Quiz Design</span>
+              <a href="https://troylochner.github.io/code-quiz/" target="_blank"
+                class="btn-floating halfway-fab waves-effect waves-light red"><i
+                  class="material-icons">open_in_new</i></a>
+            </div>
+            <div class="card-content">
+              <p\>Basic quiz stucture utilizing javascript.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
 
 
-          </section>
-        </li>
-      </ul>
-
-      <!--DO NOT NEED FORMS YET - BUT KEEP HANDY
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>-->
-    </section>
-  </nav>
-  <!--END NAV AREA-->
+    </div>
 
 
-  <main class="container-fluid">
-    <section class="jumbotron" style="margin: 20px 15px 0px 15px;">
-      <section class="row">
-        <h1>A Little Bit About Myself</h1>
-      </section>
-      <br>
-      <section class="row">
-        <section class="col-5">
-          <img src="images/TDL_BlackTee_Profile.jpg" class="img-thumbnail img-fluid" alt="Mr. Lochner"
-            style="max-height: 400px">
-        </section>
-        <section class="col-7">
-          <p>Troy Lochner is the Director of Content Workflow Systems for WWE. In this role Mr. Lochner is reponsible for
-            getting things done at TV, and making sure that WWE content is delivered to our partners around the world. This page should be considered a constant work in progress, just like myself. </p>
-        </section>
-      </section>
-    </section>
-  </main>
+    <footer class="page-footer blue-grey darken-4 z-depth-5">
+      <div class="footer-copyright">
+        <div class="container">
+          © 2020 - Troy Lochner
+        </div>
+      </div>
+    </footer>
 
-  <footer class="bg-dark text-white mt-4">
-    <section class="container-fluid py-3">
-        <section class="row">
-            <section class="col-md-3"></section>
-            <section class="col-md-3"></section>
-            <section class="col-md-3"></section>
-            <section class="col-md-3"></section>
-        </section>
-        <section class="row">
-            <section class="col-md-3 text-left small align-self-end">Made by Troy ; throughout 2020 </section>
-            <section class="col-md-3 text-right small align-self-end"></section>
-            <section class="col-md-3 text-right small align-self-end"></section>
-            <section class="col-md-3 text-right small align-self-end"></section>
-        </section>
-    </section>
-</footer>
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-  </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
-  </script>
-</body>
+
+
+
+
+
+  </body>
 
 </html>
